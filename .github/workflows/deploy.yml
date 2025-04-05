@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      ECR_REPOSITORY: kuber-express-app
+      ECR_REPOSITORY: experiments/kuber-express-app
       AWS_REGION: ap-south-1 # change if needed
 
     steps:
