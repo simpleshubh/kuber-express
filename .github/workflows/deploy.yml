@@ -53,13 +53,6 @@ jobs:
         run: |
           aws eks update-kubeconfig --name kuber-express-cluster --region ap-south-1
 
-            
-      - name: Authenticate to EKS
-        uses: aws-actions/eks-login@v1
-        with:
-            cluster-name: kuber-express-cluster
-            region: ap-south-1
-
       - name: Deploy to Kubernetes
         run: |
           kubectl apply -f k8s/deployment.yaml
