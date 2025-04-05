@@ -4,6 +4,7 @@
   "description": "my experiments with node and kuber",
   "main": "index.js",
   "scripts": {
+    "test": "echo \"No tests yet\" && exit 0"
   },
   "repository": {
     "type": "git",
