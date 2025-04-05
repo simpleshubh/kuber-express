@@ -1,0 +1,22 @@
+{
+  "name": "kuber-express",
+  "version": "1.0.0",
+  "description": "my experiments with node and kuber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simpleshubh/kuber-express.git"
+  },
+  "author": "Shubham Choubey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simpleshubh/kuber-express/issues"
+  },
+  "homepage": "https://github.com/simpleshubh/kuber-express#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
