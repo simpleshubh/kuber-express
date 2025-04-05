@@ -11,7 +11,7 @@ jobs:
 
     env:
       ECR_REPOSITORY: experiments/kuber-express-app
-      AWS_REGION: ap-south-1 # change if needed
+      AWS_REGION: us-east-1 # change if needed
 
     steps:
       - name: Checkout code
