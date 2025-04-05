@@ -51,7 +51,7 @@ jobs:
 
       - name: Update kubeconfig
         run: |
-          aws eks update-kubeconfig --name kuber-express-cluster --region ${{ env.AWS_REGION }}
+          aws eks update-kubeconfig --name kuber-express-cluster --region ap-south-1
 
       - name: Deploy to Kubernetes
         run: |
